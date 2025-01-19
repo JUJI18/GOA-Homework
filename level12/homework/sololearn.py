@@ -1,0 +1,4 @@
+homework = "sololearn"
+
+
+print(homework)
