@@ -1,0 +1,13 @@
+#1 ) მომხმარებელს შემოატაინეთ ორი რიცხვი და მათზე მოახდინეთ მათემატიკური ოპერაციები.
+num1 = input("type any number:")
+print("good!")
+num2= input("now type different number:")
+print(int(num1) + int(num2 ))
+print(int(num1) - int(num2))
+print(int(num2) - int(num1))
+print(int(num1) * int(num2))
+print(int(num1) / int(num2))
+print(int(num1) == int(num2))
+print(int(num2)== int(num1))
+print(int(num1) < int(num2))
+print(int(num2) < int(num1))
