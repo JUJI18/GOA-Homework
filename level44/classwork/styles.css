@@ -1,0 +1,11 @@
+h1{
+    text-align: center;
+    color: rgb(236, 13, 13);
+    font-size: large;
+}
+
+button{
+    background-color: black;
+    color: chartreuse;
+    font-size: large;
+}
