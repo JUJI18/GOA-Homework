@@ -1,0 +1,18 @@
+.custom{
+    padding: 20px;
+    margin: 44px;
+    border: 7px solid black;
+}
+
+.title{
+    padding: 40px;
+    margin: 30px;
+    border: 3px solid green;
+}
+
+
+.centertext{
+    padding: 60px;
+    margin: 50px;
+    border: 5px solid blue;
+}
