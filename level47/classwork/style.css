@@ -1,0 +1,31 @@
+.container {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #333;
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.box {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.horizontal {
+    flex-direction: row;
+}
+.vertical {
+    flex-direction: column;
+}
+.reverse-horizontal {
+    flex-direction: row-reverse;
+}
+.reverse-vertical {
+    flex-direction: column-reverse;
+}

@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    width: 100px;
+    height: 60px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    border-radius: 8px;
+    background: black;
+}
+
+.red {
+    color: red;
+    border-color: red;
+}
+
+.blue {
+    color: blue;
+    border-color: blue;
+}
