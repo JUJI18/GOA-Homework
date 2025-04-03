@@ -1,0 +1,13 @@
+.custom{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+body{
+    height: 300vh;
+    margin: 0;
+}

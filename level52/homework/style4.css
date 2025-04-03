@@ -1,0 +1,23 @@
+.parent{
+    height: 400px;
+    width: 400px;
+    border: solid black;
+}
+
+
+#paragraph{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    position: relative;
+}
+
+
+#text{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    position: absolute;
+    left: 20px;
+
+}
