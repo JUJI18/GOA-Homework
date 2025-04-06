@@ -1,0 +1,19 @@
+.first{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: absolute;
+    right: 150px;
+    bottom: 200px;
+    z-index: 2;
+}
+
+
+.second{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    position: absolute;
+    right: 100px;
+    bottom: 50px;
+}

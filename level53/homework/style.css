@@ -1,0 +1,99 @@
+h1{
+    text-align: center;
+    color: bisque;
+}
+
+
+
+.top-right{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+.title{
+    color: aliceblue;
+    position: absolute;
+    text-align: right;
+    top: 15px;
+    right: 130px;
+}
+
+
+.Classical{
+    display: flex;
+    width: 700px;
+}
+
+
+.Classical-guitar{
+    color: blue;
+    text-decoration-style: dotted;
+}
+
+
+.Acoustic-guitar{
+    color: crimson;
+    text-decoration: solid;
+}
+
+
+.Acoustic{
+    display: flex;
+    width: 700px;
+}
+
+
+.Electric-guitar{
+    color: gold;
+    text-decoration-style: solid;
+}
+
+.Electric{
+    display: flex;
+    width: 700px;
+}
+
+#video1{
+    position: absolute;
+    align-items: center;
+    top: 195px;
+    right: 500px;
+}
+
+#video2{
+    position: absolute;
+    align-items: center;
+    top: 595px;
+    right: 500px;
+}
+
+
+#video3{
+    position: absolute;
+    align-items: center;
+    top: 1050px;
+    right: 500px;
+}
+
+
+#meme{
+    width: 100px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+
+
+#spotify{
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: center;
+
+}

@@ -1,0 +1,33 @@
+h1{
+    position: fixed;
+    color: blueviolet;
+
+}
+
+
+
+#profile{
+    position: relative;
+    
+}
+
+
+#fullname{
+    text-align: left;
+    position: absolute;
+    left: 59px;
+}
+
+
+.inbox{
+    position: absolute;
+    background-color: red;
+    width: 50px;
+    top: 80px;
+    left: 288px;
+}
+
+
+.text{
+    position: static;
+}
