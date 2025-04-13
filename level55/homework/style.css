@@ -1,0 +1,124 @@
+#Tbilisi{
+    color: aliceblue;
+    text-align: center;
+    justify-content: center;
+    
+    box-sizing: border-box;
+    border: 4px solid black;
+
+    width: 300px;
+    height: 300px;
+    left: 320px;
+    background-image: url("https://i.pinimg.com/originals/db/23/39/db2339997bccf987d5f695efddf397e8.jpg");
+    background-size: cover;
+    position: absolute;
+
+}
+
+#Tokyo{
+    color: aliceblue;
+    text-align: center;
+    justify-content: center;
+    
+    box-sizing: border-box;
+    border: 4px solid black;
+
+
+    width: 300px;
+    height: 300px;
+    left: 650px;
+
+    background-image: url("https://i.etsystatic.com/19427004/r/il/6c7f45/2535137705/il_570xN.2535137705_hqpc.jpg");
+    background-size: cover;
+    position: absolute;
+}
+
+
+
+#NewYork{
+    color: aliceblue;
+    text-align: center;
+    justify-content: center;
+    
+    box-sizing: border-box;
+    border: 4px solid black;
+
+
+    width: 300px;
+    height: 300px;
+    right: 250px;
+
+
+    background-image: url("https://wallpapercat.com/w/full/f/f/e/1393547-1400x2100-iphone-hd-new-york-aesthetic-wallpaper-image.jpg");
+    background-size: cover;
+    position: absolute;
+
+}
+
+
+
+#Paris{
+    color: aliceblue;
+    text-align: center;
+    justify-content: center;
+    
+    box-sizing: border-box;
+    border: 4px solid black;
+
+    top: 320px;
+    width: 300px;
+    height: 300px;
+    left: 320px;
+    background-image: url("https://assets.vogue.in/photos/667922097830445356ea2be9/3:4/w_2560%2Cc_limit/Paris.jpg");
+    background-size: cover;
+    position: absolute;
+
+}
+
+
+#Spain{
+    color: aliceblue;
+    text-align: center;
+    justify-content: center;
+    
+    box-sizing: border-box;
+    border: 4px solid black;
+
+
+    top: 320px;
+
+
+
+
+    width: 300px;
+    height: 300px;
+    left: 650px;
+
+    background-image: url("https://miro.medium.com/v2/resize:fit:1358/1*TRfUxToZbt91YPGkoWGdDA.png");
+    background-size: cover;
+    position: absolute;
+
+}
+
+
+
+#Italy{
+    color: aliceblue;
+    text-align: center;
+    justify-content: center;
+    
+    box-sizing: border-box;
+    border: 4px solid black;
+
+
+    top: 320px;
+
+    width: 300px;
+    height: 300px;
+    right: 250px;
+
+    background-image: url("https://i.pinimg.com/736x/7c/a0/a7/7ca0a779b8cd8c2d90b92668388f4302.jpg");
+    background-size: cover;
+    position: absolute;
+    
+}

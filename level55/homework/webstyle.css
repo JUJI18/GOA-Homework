@@ -1,0 +1,58 @@
+body{
+    background-color: gray;
+}
+
+
+
+#front{
+    background-color: aliceblue;
+    position: absolute;
+    width: 1400px;
+    height: 800px;
+    bottom: 50px;
+    left: 100px;
+    border: 4px solid black;
+}
+
+
+.image{
+    width: 736px;
+    height: 800px;
+    background-size: cover;
+    background-image: url("https://preview.redd.it/bmw-m-officially-builds-most-wanted-m3-gtr-v0-8zsvbuf3p15e1.jpg?width=640&crop=smart&auto=webp&s=24da34c54b4567be48d0f47028026a30732d0528");
+
+
+}
+
+
+
+.Email{
+    position: absolute;
+    top: 230px;
+    right: 200px;
+}
+
+
+
+.password{
+    position: absolute;
+    top: 260px;
+    right: 200px;
+
+}
+
+
+
+.sign{
+    position: absolute;
+    top: 300px;
+    right: 200px;
+}
+
+
+
+#if{
+    position: absolute;
+    top: 100px;
+    right: 30px;
+}

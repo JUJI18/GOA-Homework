@@ -1,0 +1,11 @@
+#section1{
+    height: 500px;
+    width: 500px;
+    border: 8px solid green;
+    position: absolute;
+    left: 400px;
+    background-image: url(https://i.pinimg.com/736x/06/5a/3f/065a3fabc657c5e1765457e210f7f759.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+}
