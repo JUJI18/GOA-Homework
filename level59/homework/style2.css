@@ -1,0 +1,127 @@
+#welcome{
+    position: absolute;
+    top: 190px;
+    left: 180px;
+    color: brown;
+}
+
+
+
+input{
+    width: 300px;
+    height: 50px;
+}
+.register{
+    position: absolute;
+    top:  300px;
+    left: 180px;
+}
+
+
+button{
+    width: 300px;
+    height: 50px;
+    color: aliceblue;
+    background-color: blue;
+    border-radius: 20px;
+}
+
+
+#article{
+    position: absolute;
+    top: 5px;
+    right: 900px;
+}
+
+#article1{
+    position: absolute;
+    top: 20px;
+    right: 900px;
+}
+
+
+#people{
+    position: absolute;
+    top: 5px;
+    right: 800px;
+}
+
+#people1{
+    position: absolute;
+    top: 20px;
+    right: 800px;
+}
+
+
+
+#learn{
+    position: absolute;
+    top: 5px;
+    right: 700px;
+
+}
+
+#learn1{
+    position: absolute;
+    top: 20px;
+    right: 700px;
+}
+
+
+#jobs{
+    position: absolute;
+    top: 5px;
+    right: 600px;
+
+}
+
+
+#jobs1{
+    position: absolute;
+    top: 20px;
+    right: 600px;
+}
+
+#app{
+    position: absolute;
+    top: 5px;
+    right: 500px;
+}
+
+
+#app1{
+    position: absolute;
+    top: 20px;
+    right: 490px;
+}
+
+
+
+#join{
+    position: absolute;
+    top: 5px;
+    right: 350px;
+}
+
+
+#button2{
+    position: absolute;
+    top: 5px;
+    right: 200px;
+    width: 100px;
+    height: 50px;
+    color: aliceblue;
+    background-color: blue;
+    border-radius: 20px;
+}
+
+
+
+.img{
+    position: absolute;
+    justify-content: center;
+
+    top: 54px;
+    right: 653px;
+ 
+}
