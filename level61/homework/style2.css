@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .apple-logo {
+    font-size: 60px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .progress-bar {
+    width: 200px;
+    height: 6px;
+    background: #333;
+    border-radius: 3px;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  
+  .fill {
+    width: 0%;
+    height: 100%;
+    background: linear-gradient(to right, #fff, #888);
+    animation: load 5s ease-out forwards;
+  }
+  
+  @keyframes load {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
