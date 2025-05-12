@@ -1,0 +1,23 @@
+.underline-yellow {
+  color: #8a6d3b;
+  text-decoration-line: underline;
+  text-decoration-color: yellow;
+  text-decoration-thickness: 2px;
+  font-size: 18px;
+}
+
+.line-through-purple {
+  color: #5c4b7d;
+  text-decoration-line: line-through;
+  text-decoration-color: violet;
+  text-decoration-thickness: 2px;
+  font-size: 18px;
+}
+
+.overline-green {
+  color: #2e7d32;
+  text-decoration-line: overline;
+  text-decoration-color: limegreen;
+  text-decoration-thickness: 2px;
+  font-size: 18px;
+}

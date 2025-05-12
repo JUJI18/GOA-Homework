@@ -1,0 +1,66 @@
+.item {
+      position: absolute;
+    }
+
+    .hello {
+      top: 10px;
+      right: 10px;
+      text-decoration: underline dotted green;
+    }
+
+    .world {
+      top: 40px;
+      left: 50px;
+      text-decoration: line-through;
+    }
+
+    .exclamation {
+      top: 80px;
+      left: 10px;
+      color: red;
+      text-decoration: overline red solid 2px;
+    }
+
+    .goal {
+      top: 130px;
+      left: 80px;
+      text-decoration: underline;
+    }
+
+    .oriented {
+      top: 170px;
+      left: 150px;
+      text-decoration: underline wavy black;
+    }
+
+    .academy {
+      top: 210px;
+      left: 30px;
+      text-decoration: line-through red;
+    }
+
+    .is {
+      top: 250px;
+      left: 60px;
+      text-decoration: overline;
+    }
+
+    .the {
+      top: 320px;
+      left: 180px;
+      text-decoration: underline green solid 3px;
+    }
+
+    .best {
+      top: 360px;
+      left: 80px;
+      color: grey;
+      font-weight: bold;
+      text-decoration: overline underline double grey;
+    }
+
+    .one {
+      bottom: 10px;
+      left: 200px;
+      text-decoration: underline dotted green;
+    }

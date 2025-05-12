@@ -1,0 +1,7 @@
+.underline-blue{
+  color: black;
+  text-decoration-line: underline;
+  text-decoration-color: blue;
+  text-decoration-thickness: 2px;
+  font-size: 12px;
+}

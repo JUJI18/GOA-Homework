@@ -1,0 +1,8 @@
+.triple-line-title {
+  color: #333;
+  font-size: 28px;
+  text-decoration-line: overline line-through underline;
+  text-decoration-color: skyblue rgb(120, 120, 255) rgb(211, 137, 0);
+  text-decoration-thickness: 2px;
+  text-align: center;
+}
