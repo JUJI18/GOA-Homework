@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Codystar:wght@300;400&family=Nosifer&family=Unbounded:wght@200..900&display=swap");
+
+.why {
+    position: absolute;
+    color: black;
+  font-family: "Codystar", sans-serif;
+  font-weight: 400;
+  font-size: 150px;
+  font-style: normal;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: orange;
+}

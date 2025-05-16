@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Unbounded:wght@200..900&display=swap");
+
+
+
+.bangers-regular {
+    color: aliceblue;
+  font-family: "Bangers", system-ui;
+  font-weight: 400;
+  font-size: larger;
+  font-style: normal;
+  justify-content: center;
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  left: 500px;
+}

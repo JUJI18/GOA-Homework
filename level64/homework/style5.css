@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+.st1{
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: blueviolet;
+}
+
+
+.title{
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
+
+.st2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  color: red;
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: overline;
+  text-decoration-style: inherit;
+  text-decoration-color: chartreuse;
+
+}
+
+
+@import url("https://fonts.googleapis.com/css2?family=Aguafina+Script&display=swap");
+
+.st3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  color: crimson;
+  font-family: "Aguafina Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: line-through;
+  text-decoration-style: dashed;
+  text-decoration-color: darkslateblue;
+
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap");
+.st4{
+  font-family: "Alex Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: gold;
+  display: inline-block;
+  background-color: black;
+  text-decoration: overline;
+  text-decoration-style: dashed;
+  text-decoration-color: darkblue;
+}
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Quintessential&display=swap");
+
+
+.st5{
+  font-family: "Quintessential", serif;
+  font-weight: 400;
+  font-style: normal;
+
+  color: forestgreen;
+  display: inline-block;
+  background-color: black;
+  text-decoration: solid;
+  text-decoration-style: initial;
+  text-decoration-color: mediumblue;
+
+}
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap");
+
+
+.st6{
+  position: absolute;
+  font-family: "Jolly Lodger", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: dimgrey;
+  display: inline-block;
+  background-color: mediumblue;
+  text-decoration: dotted;
+  text-decoration-style: initial;
+  text-decoration-color: red;
+  left: 233px;
+}
