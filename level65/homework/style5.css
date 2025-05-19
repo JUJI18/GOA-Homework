@@ -1,0 +1,30 @@
+.container {
+      width: 100vw;
+      height: 100vh;
+      background: red;
+      display: flex;
+      gap: 1rem;
+      padding: 1rem;
+      box-sizing: border-box;
+  
+    }
+    .box {
+      flex: 1;
+      background: blue;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-family: sans-serif;
+      font-size: 1.25rem;
+      min-height: 200px;
+    }
+    .box.green {
+      background: green;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    .box.green p {
+      margin: 0;
+      color: violet;
+    }

@@ -1,0 +1,29 @@
+.green-box {
+      width: 400px;
+      height: 300px;
+      background: green;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      margin: 0 auto;
+      padding: 1rem;
+      box-sizing: border-box;
+    }
+
+    .green-box p {
+      color: blue;
+      margin: 0;
+      border-top: 3px solid violet;
+      padding-top: 0.25rem;
+      font-size: 1rem;
+      font-weight: 400;
+    }
+
+    .green-box p.highlight {
+      color: yellow;
+      font-size: 1.4rem;
+      font-weight: 700;
+      border-bottom: 3px wavy black;
+    }

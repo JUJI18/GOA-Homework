@@ -1,0 +1,15 @@
+.box {
+      width: 320px;        
+      height: 260px;      
+      background: red;     
+      padding: 12px;
+      box-sizing: border-box;
+    }
+
+
+.box * {
+      color: #fff;         
+      font-size: 18px;     
+      font-weight: 600;    
+      margin: 4px 0;       
+    }
