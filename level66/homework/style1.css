@@ -1,0 +1,20 @@
+table {
+      border-collapse: collapse;
+      width: 50%;
+    }
+    th, td {
+      border: 1px solid black;
+      text-align: center;
+      padding: 8px;
+    }
+    th {
+      background-color: yellow;
+      font-weight: bold;
+    }
+    .highlight {
+      background-color: pink;
+    }
+    .footer {
+      font-weight: bold;
+      text-align: center;
+    }
