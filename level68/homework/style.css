@@ -1,0 +1,71 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 40px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 300px;
+  padding: 30px 20px;
+  border-radius: 10px;
+  color: rgb(197, 189, 189);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card h2 {
+  font-size: 24px;
+  margin: 20px 0 10px;
+  font-weight: bold;
+}
+
+.card p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.card button {
+  background-color: rgb(230, 220, 220);
+  color: #2c2c2c;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.card button:hover {
+  background-color: #b9b5b5;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(49, 5, 5, 0.1);
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* Individual card colors */
+.sedan {
+  background-color: #ffa81c;
+}
+
+.suv {
+  background-color: #01423b;
+}
+
+.luxury {
+  background-color: #003b32;
+}

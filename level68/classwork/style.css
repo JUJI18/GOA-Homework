@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #008a6e;
+  padding: 10px;
+  text-align: left;
+}
+
+thead th {
+  background-color: #108d73;
+  color: rgb(219, 219, 219);
+}
+
+tbody td:first-child {
+  background-color: #108d73;
+  color: rgb(255, 255, 255);
+}
+
+th:first-child u {
+  text-decoration: underline;
+}
