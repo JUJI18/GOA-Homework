@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(11, 11, 44);
+}
+
+
+
+.parent {
+    background-color: rgb(32, 6, 56);
+    height: 500px;
+    width: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border: 5px solid black;
+}
+
+#title{
+    color: aliceblue;
+    display: flex;
+    position: absolute;
+    top: 60px;
+    left: 110px;
+    
+}
+
+
+#txt1{
+    color: aliceblue;
+    position: absolute;
+    top: 190px;
+    left: 110px;
+}
+
+
+#txt2{
+    color: aliceblue;
+    position: absolute;
+    top: 340px;
+    left: 120px;
+}
+
+
+
+
+#txt3{
+    color: aliceblue;
+    position: absolute;
+    top: 340px;
+    left: 240px;
+}
+
+
+#txt4{
+    color: aliceblue;
+    position: absolute;
+    top: 340px;
+    left: 360px;
+}
+
+#img1{
+    height: 500px;
+    width: 550px;
+    position: absolute;
+    right: 0px;
+
+
+}
