@@ -1,0 +1,139 @@
+body{
+    background-color: rgb(255, 255, 206);
+}
+
+
+
+.parent{
+    display: flex;
+     width: 800px;
+     height: 1200px;
+     position: absolute;
+     background-color: aliceblue;
+     border: 1px solid burlywood;
+     border-radius: 20px;
+     top: 70%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     
+}
+
+
+
+#om{
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+#title{
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-size: 30px;
+  font-style: normal;
+  position: absolute;
+  top: 350px;
+  left: 50px;
+  
+}
+
+
+#txt1{
+    position: absolute;
+    top: 399px;
+    left: 50px;
+}
+
+
+
+
+#title2{
+    position: absolute;
+    top: 460px;
+    left: 55px;
+    color: brown;
+
+}
+
+
+
+#txt2{
+    position: absolute;
+    top: 480px;
+    left: 63px;
+    color: rgb(0, 0, 0);
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+
+
+#title3{
+    color: brown;
+    font-family: "Abril Fatface", serif;
+  font-weight: 900;
+  font-size: 20px;
+  font-style: normal; 
+  position: absolute;
+  top: 600px;
+  left: 5%;
+
+}
+
+
+
+#txt3{
+    position: absolute;
+    top: 630px;
+    left: 8%;
+}
+
+
+#title4{
+    color: brown;
+    font-family: "Abril Fatface", serif;
+  font-weight: 900;
+  font-size: 20px;
+  font-style: normal; 
+  position: absolute;
+  top: 750px;
+  left: 5%;
+
+}
+
+
+#txt4{
+    position: absolute;
+    top: 780px;
+    left: 8%;
+}
+
+
+
+
+
+#title5{
+    color: brown;
+    font-family: "Abril Fatface", serif;
+  font-weight: 900;
+  font-size: 20px;
+  font-style: normal; 
+  position: absolute;
+  top: 1000px;
+  left: 5%;
+}
+
+
+#txt5{
+    position: absolute;
+    top: 1030px;
+    left: 8%;
+}

@@ -1,0 +1,111 @@
+body{
+    background-color: beige;
+
+}
+
+
+
+
+
+.parent{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 800px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+#img{
+    height: 600px;
+    width: 410px;
+    border-radius: 20px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&display=swap');
+
+#title{
+     position: absolute;
+      top: 30px;
+     right: 240px;
+     font-family: "Abril Fatface", serif;
+     font-weight: 600;
+     font-style: normal;
+}
+
+
+
+
+
+
+#head{
+    position: absolute;
+      top: 30px;
+     right: 240px;
+     font-family: "Abril Fatface", serif;
+     font-weight: 600;
+     font-style: normal;
+     position: absolute;
+     top: 80px;
+     right: 100px;
+
+}
+
+
+#txt{
+    position: absolute;
+    top: 220px;
+    right: 130px;
+
+}
+
+
+
+#price{
+    position: absolute;
+    color: rgb(19, 114, 19);
+    top: 290px;
+    right: 180px;
+    font-weight: 800;
+    font-size: 50px;
+
+}
+
+
+#oldprice{
+    position: absolute;
+    top: 330px;
+    right: 110px;
+    color: black;
+    text-decoration: line-through;
+    text-decoration-color: black;
+
+}
+
+#buy{
+    position: absolute;
+    top: 480px;
+    right: 100px;
+    height: 60px;
+    width: 230px;
+    border-radius: 10px;
+    background-color: rgb(24, 87, 24);
+    color: aliceblue;
+    font-weight: 700;
+    
+}
+
+
+#shop{
+    position: absolute;
+    top: 33%;
+    left: 25%;
+}
