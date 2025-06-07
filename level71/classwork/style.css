@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #3a3a3a;
+  text-align: center;
+}
+
+.technology {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.technology h2 {
+  font-weight: 300;
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.technology h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.technology p {
+  font-size: 14px;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto 50px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.center-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: left;
+  position: relative;
+}
+
+.card h3 {
+  margin: 0;
+  color: #2d2d2d;
+}
+
+.card p {
+  margin: 10px 0 20px;
+  color: #666;
+  font-size: 14px;
+}
+
+.card img {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+
+/* Border colors */
+.card.green {
+  border-top: 4px solid #20c997;
+}
+
+.card.red {
+  border-top: 4px solid #dc3545;
+}
+
+.card.orange {
+  border-top: 4px solid #fd7e14;
+}
+
+.card.blue {
+  border-top: 4px solid #0d6efd;
+}

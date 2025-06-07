@@ -1,0 +1,71 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f8f6fb;
+  margin: 0;
+  padding: 2rem;
+  color: #2c0c3f;
+}
+
+.testimonials {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.testimonials-header h1 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.testimonials-header p {
+  margin-top: 0.5rem;
+  color: #555;
+}
+
+.ratings {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 2rem 0;
+}
+
+.rating-box {
+  background-color: #f3ecf9;
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  font-weight: 600;
+  color: #5e3370;
+  width: fit-content;
+}
+
+.reviews {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.review-card {
+  background-color: #4b236b;
+  color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  flex: 1;
+  min-width: 280px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.user-info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.verified {
+  color: #e39eff;
+  font-size: 0.9rem;
+}
