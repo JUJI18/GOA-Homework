@@ -1,0 +1,207 @@
+body{
+    background-color: aliceblue;
+}
+
+
+
+.parent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 500px;
+    width: 550px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+
+
+
+#child{
+    height: 500px;
+    width: 275px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgb(60, 60, 214);
+}
+
+
+
+
+#title{
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    color: rgb(194, 194, 194);
+    font-size: larger;
+}
+
+
+#ss{
+    position: absolute;
+    top: 90px;
+    left: 105px;
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+}
+
+#of{
+    position: absolute;
+    top: 215px;
+    left: 120px;
+    font-size: medium;
+    color: beige;
+}
+
+
+
+#Great{
+    position: absolute;
+    top: 270px;
+    left: 110px;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+
+#desc{
+    position: absolute;
+    top: 340px;
+    left: 55px;
+    color: aliceblue;
+
+}
+
+
+
+
+#summary{
+    position: absolute;
+    top: 17px;
+    right: 165px;
+    color: black;
+    font-size: x-large;
+}
+
+
+
+#icon-reaction{
+    position: absolute;
+    top: 110px;
+    right: 210px;
+}
+
+
+#reaction{
+    position: absolute;
+    top: 95px;
+    right: 145px;
+    color: red;
+}
+
+
+
+#icon-memory{
+    position: absolute;
+    top: 170px;
+    right: 210px;
+}
+
+
+#memory{
+    position: absolute;
+    top: 155px;
+    right: 145px;
+    color: yellow;
+
+}
+
+
+
+#icon-verbal{
+    position: absolute;
+    top: 230px;
+    right: 210px;
+
+}
+
+
+#verbal{
+    position: absolute;
+    top: 215px;
+    right: 150px;
+    color: aqua;
+}
+
+
+#icon-visual{
+    position: absolute;
+    top: 290px;
+    right: 210px;
+}
+
+
+
+#visual{
+    position: absolute;
+    top: 275px;
+    right: 150px;
+    color: blue;
+}
+
+
+#n1{
+    position: absolute;
+    top: 95px;
+    right: 60px;
+    color: black;
+}
+
+
+#n2{
+    position: absolute;
+    top: 145px;
+    right: 60px;
+    color: black;
+}
+
+
+#n3{
+    position: absolute;
+    top: 215px;
+    right: 60px;
+    color: black;
+
+}
+
+
+#n4{
+    position: absolute;
+    top: 275px;
+    right: 60px;
+    color: black
+}
+
+
+
+
+
+#Continue{
+    position: absolute;
+    bottom: 80px;
+    right: 40px;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+
+
+
+    background-color: rgb(66, 66, 221);
+
+    
+    color: white;
+}
