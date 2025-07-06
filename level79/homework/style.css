@@ -1,0 +1,17 @@
+.parent {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  background-color: #e0f7fa;
+}
+
+.child {
+  background-color: #00796b;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 40px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}

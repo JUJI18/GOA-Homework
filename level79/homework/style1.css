@@ -1,0 +1,17 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 16px;
+  padding: 20px;
+  background-color: #383838;
+}
+
+.grid-item {
+  background-color: #3949ab;
+  color: #00c00a;
+  font-size: 2rem;
+  text-align: center;
+  padding: 40px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
