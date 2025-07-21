@@ -1,0 +1,17 @@
+
+div{
+    display: flex;
+}
+
+img{
+    width: 450px;
+}
+
+@media (max-width:1000px) {
+
+    div{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
