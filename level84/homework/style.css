@@ -1,0 +1,296 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+@media (max-width: 1440px) {
+  body {
+    width: auto;
+    height: 100vh;
+  }
+}
+
+nav{
+  background-color: rgb(255,255,255);
+  width: auto;
+  height: 56px;
+  display: flex;
+}
+
+#nav img{
+  width: 80px;
+  height: 25px;
+  position: relative;
+  top: 16px;
+  left: 834.5px;
+}
+
+#box{
+  width: 423px;
+  height: 40px;
+  background-color: rgb(255,255,255);
+  display: flex;
+  position: relative;
+  top: 8px;
+  left: 40px;
+  justify-content: space-around;
+}
+
+#box2{
+  width: 423px;
+  height: 40px;
+  position: relative;
+  top: 8px;
+  right: 130px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#box2 img{
+  width: 20px;
+  height: 20px;
+}
+
+main{
+  width: auto;
+  height: 100vh;
+}
+
+main #frame{
+  background-color: rgb(240,239,235);
+  height: 600px;
+}
+
+main h1{
+  color: black;
+  position: relative;
+  left: 130px;
+  top: 70px;
+  font-size-adjust: 1;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.desc{
+  position: relative;
+  top: 70px;
+  left: 130px;
+  color: black;
+}
+
+#shop-now{
+  display: flex;
+  position: relative;
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  top: 80px;
+  left: 130px;
+  font-size: larger;
+}
+
+.img1{
+  width: 600px;
+  height: 490px;
+  position: relative;
+  left: 1000px;
+  top: -320px;
+}
+
+#frame2{
+  height: 1700px;
+  background-color: rgb(255,255,255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top{
+  position: relative;
+  font-size-adjust: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+.desc2{
+  position: relative;
+  color: black;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.desc3{
+  position: relative;
+  top: 100px;
+  color: black;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.desc4{
+  position: relative;
+  top: 170px;
+  color: black;
+  font-size-adjust: 1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.image-row {
+  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  position: relative;
+  top: 220px;
+}
+
+
+#profiledes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
+.culture{
+    color: black;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;}
+
+
+
+#d1{
+    position: relative;
+    left: 260px;
+    top: -580px;
+}
+
+#d2{
+    position: relative;
+    left: 110px;
+    top: -580px;
+}
+
+#d3{
+    position: relative;
+    top: -580px;
+    
+
+}
+
+.price{
+    color: black;
+    font-size: large;
+}
+
+
+.price{
+    position: relative;
+    top: -500px;
+}
+
+
+#p1{
+    right: 80px;
+}
+
+
+#p2{
+    right: 230px;
+}
+
+
+
+#p3{
+    right: 350px;
+}
+
+
+
+#buy-it{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.cart{
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: -530px;
+    text-decoration: line-through;
+    text-decoration-line: underline;
+    text-decoration-color: black;
+}
+
+#cart1{
+    left: 200px;
+}
+
+
+#cart3{
+    right: 200px;
+}
+
+#frame3{
+    background-color: rgb(240,240,240);
+    width: auto;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+#profilepic1 img{
+    position: relative;
+    right: 240px;
+}
+
+
+#title33{
+    color: black;
+    font-size-adjust: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: -40px;
+    right: 140px;
+
+}
+
+
+#guid{
+    color: black;
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    right: 140px;
+    font-weight: 400;
+}
+
+#shop-guide{
+    position: relative;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    right: 140px;
+    font-size: larger;
+    text-decoration: line-through;
+    text-decoration-line: underline;
+    text-decoration-color: black;
+}
