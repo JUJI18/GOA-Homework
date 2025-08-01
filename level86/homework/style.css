@@ -407,7 +407,7 @@ main h1{
 #frame6{
   background-color: rgb(255,255,255);
   width: auto;
-  height: 800px;
+  height: 1000px;
   display: flex;
 
 
@@ -507,4 +507,91 @@ main h1{
 
 #oval6{
   background-color: rgb(211,153,255);
+}
+
+
+
+#foottxt{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 300px;
+}
+
+.es{
+  color: black;
+  font-size-adjust: 1;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+  top: 530px;
+  right: 430px;
+
+}
+
+
+
+#frame7{
+  background-color: rgb(240,240,240);
+  width: auto;
+  height: 1000px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+
+
+}
+
+
+
+
+#portraits{
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+  position: relative;
+  left: 180px;
+
+}
+
+
+
+.imgs{
+  position: relative;
+  top: -380px;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+
+
+.txts{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.pot1{
+  position: relative;
+  right: 1050px;
+}
+
+
+
+.pot2{
+  position: relative;
+  right: 760px;
+  top: -65px;
+}
+
+
+.pot3{
+  position: relative;
+  right: 510px;
+  top: -130px;
 }
