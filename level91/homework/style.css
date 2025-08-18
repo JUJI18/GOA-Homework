@@ -1,0 +1,193 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: "Raleway", sans-serif;
+    height: 100vh;
+}
+
+
+header{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+    margin: 0px 140px;
+    border-bottom: 1px solid rgba(168, 168, 168, 1);
+
+
+}
+
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+li{
+    list-style: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+
+    
+}
+
+
+header h1{
+    font-weight: 700;
+    font-size: 30px;
+    color: black;
+
+}
+
+
+
+button{
+    background-color: rgba(255, 206, 49, 1);
+    padding: 18px 55px;
+    border: none;
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 18px;
+    
+}
+
+
+
+.frame img{
+    max-width : 600px;
+    
+}
+
+.frame{
+    display: flex;
+    padding: 100px 140px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 40px;
+    max-width: 740px;
+
+
+
+}
+
+.text h1{
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 116px;
+
+}
+
+
+.text p{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 36px;
+    max-width: 700px;
+
+}
+
+
+.mail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+
+}
+
+
+.mail input{
+    padding: 18px 40px;
+    width: 417px;
+    border: none;
+    border-radius: 100px;
+    background-color: rgba(245, 245, 245, 1);
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(113, 113, 113, 1);
+
+
+
+}
+
+.frame-logos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 600px;
+    padding: 60px 140px;
+    
+}
+
+.frame-logos img{
+    width: 180px;
+    height: 60px;
+}
+
+.frame-logos p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.frame-logos2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 811px;
+    height: 48px;
+    margin: -120px 930px;
+    gap: 50px;
+    
+}
+
+.frame-logos2 img{
+    width: 140px;
+    height: 38px;
+
+}
+
+
+@media(max-width: 1050px){
+    header{
+        margin: 0px 20px;
+    }
+}
+
+
+@media(max-width: 800px){
+    nav{
+        display: none;
+
+    }
+    header button{
+        display: none;
+
+    }
+}
+
+
