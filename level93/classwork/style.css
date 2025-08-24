@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Orbitron:wght@400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+
+body{
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 36px 137px;
+}
+
+.car-logo{
+    width: 150px;
+    height: 60px;
+}
+
+nav ul{
+    display: flex;
+    gap: 50px;
+
+}
+
+nav ul li{
+    list-style: none;
+    font-family: "Inter", sans-serif;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+}
+
+header div{
+    display: flex;
+    gap: 20px;
+}
+
+.header-button1{
+    border: none;
+    background-color: white;
+    color: rgba(73, 73, 73, 1);
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+}
+
+
+.header-button2{
+    border: none;
+    background-color: white;
+    width: 108px;
+    height: 48px;
+    color: rgba(0, 52, 120, 1);
+    border: 1px solid rgba(0, 52, 120, 1);
+    font-size: 16px;
+    font-weight: 550;
+}
+
+.menu{
+    display: none;
+}
+
+
+
+.section1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 100vh;
+    position: relative;
+    
+    
+
+}
+
+
+.section1-div1 h1{
+    font-size: 72px;
+    font-weight: 300;
+    max-width: 700px;
+    color: rgba(7, 80, 159);
+    text-transform: uppercase;
+}
+
+.section1-div1 h1 span{
+    color: rgb(251,170,12);
+    font-weight: 700;
+}
+
+
+.section1-div1{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 1;
+    font-family: "Orbitron", sans-serif;
+    padding-left: 139px;
+    gap: 100px;
+    bottom: 200px;
+
+}
+
+.section1-div1 p{
+    font-size: 50px;
+    font-weight: 300;
+    color: white;
+    font-family: "Sansation", sans-serif;
+    text-transform: uppercase;
+
+}
+
+.section1-div1 p span{
+    font-size: 26px;
+    font-family: "Sansation", sans-serif;
+    
+}
+
+
+.button-div{
+    display: flex;
+    font-family: "Inter", sans-serif;
+    gap: 0px;
+    margin-top: 40px;
+}
+
+
+.section1-button1{
+    width: 200px;
+    height: 75px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: rgba(0, 52, 120, 1);
+    border: none;
+    color: white;
+}
+
+.section1-button2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 195px;
+    height: 70px;
+    border: none;
+    background-color: white;
+}
+
+.section1-button2 div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgba(0, 52, 120, 1);
+    width: 46px;
+    height: 46px;
+}
+
+
+
+.line{
+    background-color: rgba(48, 50, 49, 1);
+    width: 100%;
+    height: 63px;
+
+}
+
+.two-line{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+}
+
+
+
+.line2{
+    height: 63px;
+}
+
+
+
+.car{
+    position: absolute;
+    top: 17.6%;
+    right: -590px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1440px){
+    .section1-div1{
+        gap: 260px;
+    }
+
+    .car{
+        width: 1200px;
+    }
+    .two-line{
+        top: 41%;
+        gap: 19px;
+    }
+
+    .line{
+        height: 53px;
+
+    }
+
+    .line2{
+        height: 56px;
+
+    }
+
+}
+
+
+
+
+@media (max-width: 1170px){
+
+    header{
+        padding: 36px 50px;
+
+    }
+
+    
+
+}
+
+
+@media (max-width: 1000px){
+    .menu{
+        display: block;
+        width: 50px;
+    }
+    nav , header div{
+        display: none;
+    }
+
+    .section1-div1{
+        padding-left: 50px;
+    }
+
+
+
+
+
+}
