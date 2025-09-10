@@ -1,0 +1,5 @@
+let firstNumber = (44)
+let secondNumber = (2)
+let thirdNumber = (3)
+let fourthNumber = (101)
+let fifthNumber = (5)

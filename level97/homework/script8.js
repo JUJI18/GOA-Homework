@@ -1,0 +1,7 @@
+let userName = prompt("enter your name")
+let userSurname = prompt ("enter your surname")
+let userAge = prompt ("enter your age")
+let address = prompt("enter address")
+let birth = prompt("birth date")
+let height = prompt("enter your height")
+let weight = prompt ("enter your weight")
